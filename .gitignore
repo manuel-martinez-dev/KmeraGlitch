@@ -1,0 +1,32 @@
+# Local only
+OFFLINe-.md
+
+# Images (captured + processed)
+photos/
+output/
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.tif
+*.bmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Ruby
+.bundle/
+vendor/bundle/
+
+# Environment / secrets
+.env
+
+# OS
+Thumbs.db
+
+# IDE
+.vscode/
