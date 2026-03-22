@@ -268,7 +268,7 @@ Power Supply (27W USB-C)
     ┌─────────────┐      ┌──────────────┐
     │ Camera      │      │  Breadboard  │
     │ Module 3    │      │              │
-    │ Wide        │      │  [Button]    │
+    │ Std         │      │  [Button]    │
     │ (ribbon     │      │   │      │   │
     │  cable)     │      │  GND   GPIO17│
     └─────────────┘      └──────────────┘

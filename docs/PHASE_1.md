@@ -134,10 +134,10 @@ DPI is configurable per effect. 300 is the default; 600 recommended for ASCII ou
 ## Prerequisites for Phase 2
 
 Before starting hardware assembly, ensure you have:
-- [ ] Camera Module 3 Wide (ordered/delivered)
-- [ ] 830-point breadboard kit (ordered/delivered)
-- [ ] 128GB microSD card (ordered/delivered)
-- [ ] Monitor + keyboard for initial Pi setup
+- [x] Camera Module 3 (standard) (ordered/delivered)
+- [x] 830-point breadboard kit (ordered/delivered)
+- [x] 128GB microSD card (ordered/delivered)
+- [x] Monitor + keyboard for initial Pi setup
 
 ## Next Steps
 
