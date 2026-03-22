@@ -4,6 +4,8 @@
 
 KmeraGlitch is a headless camera system built on Raspberry Pi 5. A physical button triggers photo capture via Python, then a Ruby pipeline processes images into glitch art or ASCII output for use in comics and graphic novels.
 
+> **Hardware note:** Camera Module 3 used is the **standard** version (not Wide). Confirmed from PCB labeling.
+
 ## System Diagram
 
 ```
@@ -28,7 +30,7 @@ KmeraGlitch is a headless camera system built on Raspberry Pi 5. A physical butt
 | Component | Role |
 |-----------|------|
 | Raspberry Pi 5 8GB | Main processing unit |
-| Camera Module 3 Wide (120° FOV) | Image capture — 11.9MP sensor (4608×2592) |
+| Camera Module 3 (standard) | Image capture — 11.9MP sensor (4608×2592) |
 | Tactile button | Shutter trigger, wired to GPIO |
 | 830-point breadboard | Button wiring + future expansion |
 | 128GB microSD | Primary storage for OS + photos |

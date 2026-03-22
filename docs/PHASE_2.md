@@ -8,7 +8,7 @@ This phase covers assembling the Raspberry Pi 5, connecting the Camera Module 3,
 
 From [Phase 1 prerequisites](PHASE_1.md#prerequisites-for-phase-2):
 - Raspberry Pi 5 8GB
-- Camera Module 3 Wide (120° FOV) + ribbon cable
+- Camera Module 3 (standard) + ribbon cable
 - Official Raspberry Pi 5 Case (with integrated fan cooler) **or** standalone Active Cooler
 - 27W USB-C power supply
 - 128GB microSD card

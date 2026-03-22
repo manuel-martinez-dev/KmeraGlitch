@@ -13,7 +13,7 @@ A DIY creative camera built with Raspberry Pi 5 that captures photos and process
 ## Hardware
 
 - Raspberry Pi 5 8GB
-- Camera Module 3 Wide 120° FOV
+- Camera Module 3 (standard)
 - 27W USB-C power supply
 - Official case + active cooler
 - 32GB microSD with NOOBS

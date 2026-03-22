@@ -5,6 +5,21 @@
 - **Docs (Phase 1-2):** Push directly to `main`
 - **Code (Phase 3-4):** Use feature branches (e.g., `feature/camera-capture`, `feature/glitch-pipeline`)
 
+## Camera Module 3 — Protective Case
+
+**Model:** "Raspberry Pi Camera Case for Cam Module 3" by aldmodels
+**Source:** https://www.printables.com/model/768693-raspberry-pi-camera-case-for-cam-module-3
+
+- Two-part clip-together case (no screws)
+- Files: `raspberry-pi-camera-module-3-back.stl` + `rasberry-pi-camera-camera-module-3-front.stl`
+- Compatible with **standard** Camera Module 3 only (confirmed — this is what we have)
+
+**Polish 3D Print Services** (upload both STL files, select PLA/ABS):
+- https://send3d.eu — online price calculator, STL upload, InPost shipping
+- https://mikroprint.pl — online quote, FDM/SLA
+- https://drukujemy3d.pl — FDM/SLA, InPost Paczkomat delivery
+- https://3d-innowacje.pl — upload STL, instant quote
+
 ## Future Upgrades
 
 ### Portable Power (USB-C PD Power Bank)
