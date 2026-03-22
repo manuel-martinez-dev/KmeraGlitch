@@ -22,6 +22,25 @@
 
 ## Future Upgrades
 
+### Shutter Button — Hardware Improvement
+
+Current setup (breadboard + jumper wires) is prototype-only — fragile and not suitable for regular use.
+
+**Option A: Pre-wired tactile button (solderless)**
+- A tactile button with wires already attached, plugs directly onto GPIO pins
+- No breadboard needed
+- Easy to swap out, no soldering
+
+**Option B: Panel-mount momentary push button (permanent)**
+- A panel-mount button with screw terminals or solder lugs
+- Wires soldered to button terminals, female Dupont connectors on the GPIO end
+- Can be mounted through a case or enclosure
+- Most robust option for actual camera use
+
+Decision pending — need to buy. Option B preferred long-term once an enclosure for the Pi is decided on.
+
+
+
 ### Portable Power (USB-C PD Power Bank)
 
 Currently the Pi runs from a 27W USB-C wall supply (indoor/desk use only). For outdoor shooting, I will need to add a USB-C PD power bank rated 45W+ (e.g., 20,000mAh for ~4-8 hours of use).
