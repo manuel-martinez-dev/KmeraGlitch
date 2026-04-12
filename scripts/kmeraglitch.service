@@ -1,0 +1,14 @@
+[Unit]
+Description=KmeraGlitch camera capture service
+After=multi-user.target
+
+[Service]
+Type=simple
+User=manuma
+WorkingDirectory=/home/manuma/KmeraGlitch/scripts
+ExecStart=/usr/bin/python3 /home/manuma/KmeraGlitch/scripts/capture.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
