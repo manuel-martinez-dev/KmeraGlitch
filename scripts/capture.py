@@ -1,4 +1,5 @@
 import os
+import threading
 from datetime import datetime
 from signal import pause
 
@@ -18,12 +19,22 @@ def main():
     camera.configure(camera_config)
     camera.start()
 
+    _lock = threading.Lock()
+
     def capture_photo():
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"photo_{timestamp}.png"
-        filepath = os.path.join(config.SAVE_PATH, filename)
-        camera.capture_file(filepath)
-        print(f"Captured: {filepath}")
+        if not _lock.acquire(blocking=False):
+            print("Capture in progress, ignoring button press.")
+            return
+        try:
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            filename = f"photo_{timestamp}.png"
+            filepath = os.path.join(config.SAVE_PATH, filename)
+            camera.capture_file(filepath)
+            print(f"Captured: {filepath}")
+        except Exception as e:
+            print(f"Capture failed: {e}")
+        finally:
+            _lock.release()
 
     button = Button(config.GPIO_PIN, pull_up=True, bounce_time=0.1)
     button.when_pressed = capture_photo
