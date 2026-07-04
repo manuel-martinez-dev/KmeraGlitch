@@ -6,6 +6,7 @@ After=multi-user.target
 Type=simple
 User=manuma
 WorkingDirectory=/home/manuma/KmeraGlitch/scripts
+Environment=PYTHONUNBUFFERED=1
 ExecStart=/usr/bin/python3 /home/manuma/KmeraGlitch/scripts/capture.py
 Restart=on-failure
 RestartSec=5
