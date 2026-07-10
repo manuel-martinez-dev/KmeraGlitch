@@ -26,7 +26,7 @@ def main():
             print("Capture in progress, ignoring button press.")
             return
         try:
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
             filename = f"photo_{timestamp}.png"
             filepath = os.path.join(config.SAVE_PATH, filename)
             camera.capture_file(filepath)
